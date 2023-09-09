@@ -1,0 +1,28 @@
+.lp-header {
+    height: 60px;
+    border-radius: 20px;
+    padding: 4px 18px;
+    position: sticky;
+    max-width: 1202px;
+    top: 24px;
+    background-color: white;
+    z-index: 10;
+}
+
+.btn-slider {
+    gap: 8px;
+    padding: 12px;
+    border: solid 2px gainsboro;
+    border-radius: 20px;
+    transition: all ease 1s;
+}
+.btn-slider:hover {
+    flex-direction: row-reverse;
+    
+}
+.img {
+    transition:all 1s linear;
+}
+.text {
+    transition:all 1s linear;
+}
